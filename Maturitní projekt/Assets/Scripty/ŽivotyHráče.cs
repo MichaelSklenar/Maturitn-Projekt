@@ -24,7 +24,7 @@ public class ŽivotyHráče : MonoBehaviour
         if (currentHealth > 0)
         {
 
-            animace.SetTrigger("poškození");
+            animace.SetTrigger("Poškození");
 
             //muže byt poškozen
         }
@@ -32,11 +32,12 @@ public class ŽivotyHráče : MonoBehaviour
         {
             if (!Mrtvý)
             {
+              
                 //hráč
                 FindObjectOfType<GameManager>().KonecHry();
                 FindObjectOfType<PohybHráče>().Znehybnit();
                 animace.SetTrigger("Smrt");
-                animace.SetTrigger("Dead");
+                
                 Mrtvý = true;
             }
         

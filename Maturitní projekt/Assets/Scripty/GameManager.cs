@@ -17,10 +17,22 @@ public class GameManager : MonoBehaviour
         }
 
     }
+    public void Výhra()
+    {
+        if (HraSkonèila == false)
+        {
+
+            HraSkonèila = true;
+            Invoke("DalšíLevel", 2f);
+        }
+    }
     void Restart()
     {
         SceneManager.LoadScene(SceneManager.GetActiveScene().name);
     }
-    
+    void DalšíLevel()
+    {
+        SceneManager.LoadScene(2);
+    }
 
 }

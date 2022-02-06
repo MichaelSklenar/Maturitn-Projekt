@@ -756,8 +756,8 @@ GameObject:
   - component: {fileID: 223711770}
   - component: {fileID: 223711772}
   - component: {fileID: 223711774}
-  - component: {fileID: 223711775}
   - component: {fileID: 223711773}
+  - component: {fileID: 223711775}
   m_Layer: 7
   m_Name: Boss
   m_TagString: Boss
@@ -941,7 +941,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 223711768}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c1ca685724ce4db4abce7d3f380b24bd, type: 3}
+  m_Script: {fileID: 11500000, guid: ce29ee8653bad02429146306ffd76bc7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   "Po\u010Det\u017Divot\u016F": 1
@@ -8302,7 +8302,7 @@ SpriteRenderer:
   m_SortingLayerID: -986231029
   m_SortingLayer: -1
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 66537e9c169e0b34487f5e811d993508, type: 3}
+  m_Sprite: {fileID: 21300000, guid: bd4023e2bb9771e4a9f5766022a63057, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -8321,8 +8321,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1301930347}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.15, y: 0.59, z: 0}
-  m_LocalScale: {x: 1.8274, y: 1.6244, z: 1}
+  m_LocalPosition: {x: 0.0713, y: 1.458, z: 0}
+  m_LocalScale: {x: 2.5298882, y: 1.9715667, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 2

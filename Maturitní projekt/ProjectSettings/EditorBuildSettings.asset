@@ -11,4 +11,7 @@ EditorBuildSettings:
   - enabled: 1
     path: "Assets/Scenes/Prvn\xED level.unity"
     guid: 2cda990e2423bbf4892e6590ba056729
+  - enabled: 1
+    path: "Assets/Scenes/Druh\xFD Level.unity"
+    guid: ac7c98446eb56f546bb1166681bf958d
   m_configObjects: {}

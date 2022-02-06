@@ -32,7 +32,7 @@ public class Projektil : MonoBehaviour
         animace.SetTrigger("exploze");
         if(collision.tag == "Boss")
         {
-            collision.GetComponent<ŽivotyHráèe>().TakeDamage(1);
+            collision.GetComponent<ŽivotyBosse>().TakeDamage(1);
         }
     }
     public void Smìr(float _smìr)
